@@ -1,67 +1,156 @@
+<!-- Substitua onde estiver 'SECTION' por 'DIV e adicione class em cada div para que possa ESTILIZA-LAS
+    
+     Entenda como as Divs se comportam, perceba que cada uma delas tem class=""
+     Toda dúvida que tiver, pode consultara no google e entenda o que vc estiver pesquisando faz ou
+     se quiser também, pode falar comigo
+-->
+
 <!DOCTYPE html>
 <html lang="PT-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bittencourt Consultoria Ambiental</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <header>
-        <h1>Bittencourt Consultoria Ambiental</h1>
-        <p>Soluções sustentáveis para um futuro melhor</p>
+      <h1>Bittencourt Consultoria Ambiental</h1>
+      <p>Soluções sustentáveis para um futuro melhor</p>
     </header>
+
     <nav>
-        <a href="#Sobre">Sobre nós</a>
-        <a href="#Serviços">Serviços</a>
-        <a href="#portfolio">Portfólio</a>
-        <a href="#Contato">Contato</a>
+      <a href="#cardSobre">Sobre nós</a>
+      <a href="#cardServicos">Serviços</a>
+      <a href="#cardPortfolio">Portfólio</a>
+      <a href="#cardContato">Contato</a>
     </nav>
+
     <div id="Sobre" class="div1">
-        <h2>Sobre nós</h2>
-        <p>A Bittencourt Consultoria Ambiental, oferece assessoria especializada em Licenciamneto Ambiental, gestão de resíduos e estudos ambientais, atuamos com foco em resultados, legalidade e sustentabilidade, prestando Serviços a empreendimentos de  diverços portes, com destaque para o setor de posto de combustível e lava-jato</p>
+      <h2>Sobre nós</h2>
+      <p>
+        A Bittencourt Consultoria Ambiental, oferece assessoria especializada em
+        Licenciamneto Ambiental, gestão de resíduos e estudos ambientais,
+        atuamos com foco em resultados, legalidade e sustentabilidade, prestando
+        Serviços a empreendimentos de diverços portes, com destaque para o setor
+        de posto de combustível e lava-jato
+      </p>
     </div>
     <section id="Serviços">
-        <h2>Serviços</h2>
-        <ul>
-            <li>Elaboração de PCA (Plano de Controle Ambiental)</li>
-            <li>Elaboração de PGRS (Plano de Gerenciamento de Resíduos Sólidos)</li>
-            <li>Licenciamneto Ambiental completo junto a SEMUR-Parnamirim e IDEMA-RN</li>
-            <li>Projetos ambientais para lava-jatos e Posto de combustivel</li>
-            <li>Consultoria personalizada para regularização de empreendimento</li>
-        </ul>
+      <h2>Serviços</h2>
+      <ul>
+        <li>Elaboração de PCA (Plano de Controle Ambiental)</li>
+        <li>Elaboração de PGRS (Plano de Gerenciamento de Resíduos Sólidos)</li>
+        <li>
+          Licenciamneto Ambiental completo junto a SEMUR-Parnamirim e IDEMA-RN
+        </li>
+        <li>Projetos ambientais para lava-jatos e Posto de combustivel</li>
+        <li>Consultoria personalizada para regularização de empreendimento</li>
+      </ul>
     </section>
     <section id="portfolio">
-        <h2>Portfólio</h2>
-        <p>Veja alguns dos projetos desenvolvidos recentemente:</p>
-        <ul>
-            <li><strong>Lava jato</strong> - PCA e PGRS completo e licenciamento</li>
-            <li><strong>Posto de combustível em Parnamirim/RN</strong> - Elaboração de estudos para regularizaçãoambiental, junto ao IDEMA-RN</li>
-            <li><strong>Comécios locais</strong> - Planos simplificados de Gestão Ambiental</li>
-        </ul>
+      <h2>Portfólio</h2>
+      <p>Veja alguns dos projetos desenvolvidos recentemente:</p>
+      <ul>
+        <li>
+          <strong>Lava jato</strong> - PCA e PGRS completo e licenciamento
+        </li>
+        <li>
+          <strong>Posto de combustível em Parnamirim/RN</strong> - Elaboração de
+          estudos para regularizaçãoambiental, junto ao IDEMA-RN
+        </li>
+        <li>
+          <strong>Comécios locais</strong> - Planos simplificados de Gestão
+          Ambiental
+        </li>
+      </ul>
     </section>
     <section id="Contato">
-        <h2>Contato</h2>
-        <p>Entre em conato para orçamento e informações:</p>
+      <h2>Contato</h2>
+      <p>Entre em conato para orçamento e informações:</p>
 
-        <p><strong>Responsável Técnico:</strong> Tauã Verger R. Bittencourt</p>
-        
-        <p><strong>Email:</strong> ambientalbittencourt@gmail.com</p>
-        
-        <button class="wpp-button" href="http://wa.me/558499999999" target="_blank">Fale conosco no Whatsapp  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
-            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"/>
-          </svg></button>
-    <form name="Contato" method="post">
-        <input type="text" name="nome" placeholder="Seu nome">
-        <input type="email" name="email" placeholder="Seu Email">
-        <textarea name="mensagem" placeholder="Sua mensagem" rows="5"></textarea>
+      <p><strong>Responsável Técnico:</strong> Tauã Verger R. Bittencourt</p>
+
+      <p><strong>Email:</strong> ambientalbittencourt@gmail.com</p>
+
+      <button
+        class="wpp-button"
+        href="http://wa.me/558499999999"
+        target="_blank"
+      >
+        Fale conosco no Whatsapp
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="16"
+          height="16"
+          fill="currentColor"
+          class="bi bi-whatsapp"
+          viewBox="0 0 16 16"
+        >
+          <path
+            d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"
+          />
+        </svg>
+      </button>
+      <form name="Contato" method="post">
+        <input type="text" name="nome" placeholder="Seu nome" />
+        <input type="email" name="email" placeholder="Seu Email" />
+        <textarea
+          name="mensagem"
+          placeholder="Sua mensagem"
+          rows="5"
+        ></textarea>
         <button type="submit">Enviar mensagem</button>
-    </form>
+      </form>
     </section>
-<footer>
-    <p>&copy; 2025 Bittencourt Consultoria Ambiental. Todos os direitos reservados.</p>
-</footer>
-</body>
+    <footer>
+      <p>
+        &copy; 2025 Bittencourt Consultoria Ambiental. Todos os direitos
+        reservados.
+      </p>
+    </footer>
+    <div class="cards">
+      <div id="cardSobre" class="overlay">
+        <div class="card">
+          <p class="p-geral">Sobre nós</p>
+          <p>
+            Consultoria especializada em licenciamento ambiental, resíduos e
+            sustentabilidade.
+          </p>
+          <a href="#">Fechar</a>
+        </div>
+      </div>
+
+      <div id="cardServicos" class="overlay">
+        <div class="card">
+          <p class="p-geral">Serviços</p>
+          <p>
+            Elaboração de PCA, PGRS, licenciamento e projetos ambientais
+            completos.
+          </p>
+          <a href="#">Fechar</a>
+        </div>
+      </div>
+
+      <div id="cardPortfolio" class="overlay">
+        <div class="card">
+          <p class="p-geral">Portfólio</p>
+          <p>
+            Projetos desenvolvidos com destaque para postos e lava-jatos no RN.
+          </p>
+          <a href="#">Fechar</a>
+        </div>
+      </div>
+
+      <div id="cardContato" class="overlay">
+        <div class="card">
+          <p class="p-geral">Contato</p>
+          <p><strong>Fale conosco para orçamento ou dúvidas:</strong></p>
+          <p>ambientalbittencourt@gmail.com</p>
+          <p>(84) 9 9999-9999</p>
+          <a href="#">Fechar</a>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
